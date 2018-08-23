@@ -1,0 +1,228 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	蔬菜生产信息监测系统 - 用户登录
+</title><link href="Include/StyleSheet.css" type="text/css" rel="Stylesheet" />
+
+    <script type="text/javascript"> 
+		//避免框架嵌套
+		<!--
+		if (top.location !== self.location) { 
+		top.location=self.location; 
+		}
+		//-->
+		
+        //触发按钮事件
+        function EnterClick(eventObj,id) 
+        {       
+            var e = eventObj || window.event;
+            if (e.keyCode == 13) 
+            {
+                if(id =='TextBoxLoginName')
+                    document.getElementById("TextBoxPwd").focus();
+                else if(id =='TextBoxPwd')
+                    document.getElementById("txtValidator").focus();
+                else if(id =='txtValidator')
+                   document.getElementById("ButtonLogin").click();                 
+            } 
+        } 
+        function IsInputed() {
+            if (document.getElementById("TextBoxLoginName") != null && document.getElementById("TextBoxLoginName").value == "") {
+                alert("请输入登录名！");
+                document.getElementById("TextBoxLoginName").focus();
+                return (false);
+            }
+            if (document.getElementById("TextBoxPwd") != null && document.getElementById("TextBoxPwd").value == "") {
+                alert("请输入密码！");
+                document.getElementById("TextBoxPwd").focus();
+                return (false);
+            }
+            if (document.getElementById("txtValidator") != null && document.getElementById("txtValidator").value == "") {
+                alert("请输入验证码！");
+                document.getElementById("txtValidator").focus();
+                return (false);
+            }
+            return (true);
+        }
+        function highlightButton(oldClassName, newClassName, eventObj) 
+        {
+            var e = eventObj || window.event;
+            var srcElement = e.srcElement || e.target;
+            if (srcElement != null)
+            {
+                srcElement = e.srcElement || e.target;
+                if ("INPUT"==srcElement.tagName && srcElement.className == oldClassName)
+                {    
+                    srcElement.className=newClassName;
+                }
+            }
+        }
+    </script>
+
+    <style type="text/css">
+        BODY
+        {
+            margin: 0px;
+            font-size: 12px;
+            font-family: 宋体;
+            background-color: #F6F6F6;
+        }
+        FORM
+        {
+            margin: 0px;
+        }
+        A
+        {
+            color: #176FD0;
+            font-size: 12px;
+            font-family: 宋体;
+            text-decoration: none;
+        }
+        a:link
+        {
+            text-decoration: none;
+            color: #333333;
+        }
+        A:visited
+        {
+            text-decoration: none;
+            color: #333333;
+        }
+        A:active
+        {
+            text-decoration: underline;
+        }
+        A:hover
+        {
+            text-decoration: underline;
+            color: #000000;
+        }
+        TD
+        {
+            font-size: 12px;
+        }
+        .button1
+        {
+            background-image: url(Images/btnbg.jpg);
+            padding-left: 2px;
+            padding-top: 2px;
+            width: 84px;
+            height: 23px;
+            border-top-style: none;
+            border-right-style: none;
+            border-left-style: none;
+            background-color: #ffffff;
+            border-bottom-style: none;
+        }
+        .btn110
+        {
+	        border-style: none;
+	        border-color: inherit;
+	        border-width: medium;
+	        background: url('Images/btn110.jpg') no-repeat center;
+	        vertical-align:text-top;
+	        cursor: pointer;
+	        height:23px;
+	        width: 112px;
+            padding-top: 3px;
+            font-size: 12px;
+            font-family: 宋体;
+        }        
+        .btn110highlight 
+        {
+	        border-style: none;
+	        border-color: inherit;
+	        border-width: medium;
+	        background: url('Images/btn110h.jpg') no-repeat center bottom;
+	        vertical-align:text-top;
+	        cursor: pointer;
+	        height: 23px;
+	        width: 112px;
+            padding-top: 3px;
+            font-size: 12px;
+            font-family: 宋体;
+        }
+        .input1
+        {
+            border: #3B99E0 1px solid;
+            width: 200px;
+            height: 18px;
+            font-size: 12px;
+            font-family: 宋体;
+        }
+    </style>
+</head>
+<body style="margin:0; background-color: #ffffff">
+    <form name="form1" method="post" action="./Login.aspx" id="form1" onmouseover="highlightButton(&#39;btn110&#39;,&#39;btn110highlight&#39;,event);" onmouseout="highlightButton(&#39;btn110highlight&#39;,&#39;btn110&#39;,event);">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTk1NTAzNjYyMGRkVVoSEm4I4yUqn1tdizLfybMkl+PRW368TxenGb+bLqY=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="ACC45DD8" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAWy1lPMFTsfRNxE2nc0gf/dB+ggwzEeKONDIOGOhdNwOJSchh+7U6eXBKuXigMMwRxFF1pfiF5f9wDXkoN3XETAyelO89vdWhb8Al+4o2wC8kXMawlbG0TC9TDdVRBTZUJDS8JoC7O13LfxJFCRRtPy" />
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 100%">
+        <tr>
+            <td align="center" style="padding-left: 10px; padding-top: 130px">
+                <table border="0" cellpadding="0" cellspacing="0" style="background-image: url(Images/login.jpg);
+                    background-repeat: no-repeat; width: 422px; height: 298px">
+                    <tr>
+                        <td align="center" style="padding-top: 40px">
+                            <table border="0" cellpadding="2" cellspacing="0">
+                                <tr>
+                                    <td style="height: 27px; text-align: right">
+                                        登录名:
+                                    </td>
+                                    <td align="left" valign="top" style="padding-left: 3px">
+                                        <input name="TextBoxLoginName" type="text" maxlength="20" id="TextBoxLoginName" class="input1" onkeydown="EnterClick(event,&#39;TextBoxLoginName&#39;);" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 27px; text-align: right">
+                                        密&nbsp;&nbsp;码:
+                                    </td>
+                                    <td align="left" valign="top" style="padding-left: 3px">
+                                        <input name="TextBoxPwd" type="password" maxlength="20" id="TextBoxPwd" class="input1" onkeydown="EnterClick(event,&#39;TextBoxPwd&#39;);" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 27px; text-align: right">
+                                        验证码:
+                                    </td>
+                                    <td align="left" valign="top" style="padding-left: 3px">
+                                        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 100%">
+                                            <tr>
+                                                <td align="left" style="width: 70px">
+                                                    <input name="txtValidator" type="text" id="txtValidator" class="input1" style="width: 60px" maxlength="4" onkeydown="EnterClick(event,&#39;txtValidator&#39;);" />
+                                                </td>
+                                                <td align="left" style="padding-top: 3px;">
+                                                    <img id="ImgCode" src="ValidateCode.aspx" alt="验证码图片" />
+                                                </td>
+                                                <td align="left" style="padding-left: 6px; padding-top: 6px; cursor: pointer" onclick="document.getElementById('ImgCode').src='ValidateCode.aspx?'+Math.random();">
+                                                    <u>看不清，换一张？</u>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 35px;">
+                                    </td>
+                                    <td align="left">
+                                        <input onclick="if(IsInputed()) __doPostBack('ButtonLogin','')" name="ButtonLogin" type="button" id="ButtonLogin" class="btn110" value="登 录" onfocus="this.blur()" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    </td>
+                                    <td align="left" style="font-size: 12px; color:#111111; padding-top: 30px">
+                                        <!--Copyright(C) 2008 D&T--> </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
