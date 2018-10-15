@@ -18,7 +18,7 @@ def get_info(url):
     soup = BeautifulSoup(wb_data.text, 'lxml')
     ranks = soup.select('.pc_temp_num')
     titles = soup.select('.pc_temp_songlist > ul > li > a')
-    song_times = soup.select('.pc_tem_time')
+    song_times = soup.select('.pc_temp_time')
     for rank, title, song_time in zip(ranks, titles, song_times):
         data = {
             'rank': rank.get_text().strip(),
