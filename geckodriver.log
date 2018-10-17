@@ -1,0 +1,229 @@
+1539759936964	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\cva_b\\AppData\\Local\\Temp\\rust_mozprofile.rsBUOlVfZtrg"
+*** You are running in headless mode.
+1539759938379	Marionette	INFO	Listening on port 53898
+1539759938587	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539759938606	Marionette	DEBUG	[6442450945] Frame script loaded
+1539759938607	Marionette	DEBUG	[6442450945] Frame script registered
+1539759938615	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539759940511	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539759940527	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://httpbin.org/user-agent
+1539759940537	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://httpbin.org/user-agent
+1539759940568	Marionette	INFO	Stopped listening on port 53898
+1539759940581	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1592:20
+_shutdown@XPIProvider.jsm:1728:12
+observe@AsyncShutdown.jsm:541:9
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+[Parent 18396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19624JavaScript error: resource://devtools-client-shared/components/tree/TreeHeader.js, line 13: TypeError: dom is undefined
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 166: Error: Script error for: components/SearchBox
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 166: Error: Script error for: components/reps/Toolbar
+http://requirejs.org/docs/errors.html#scripterror
+[Child 19644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19644, Chrome_ChildThrea[Parent 18396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19608, Chro1539760182342	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cva_b\\AppData\\Local\\Temp\\rust_mozprofile.fwm00AYl8mca"
+1539760183925	Marionette	INFO	Listening on port 54005
+1539760183956	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539760183975	Marionette	DEBUG	[6442450945] Frame script loaded
+1539760183995	Marionette	DEBUG	[6442450945] Frame script registered
+[Child 20140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17108, Chrome_C[ChhilidThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17108, Chrome_Child[Parent 13932, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15592, C1539762276877	Marionette	INFO	Stopped listening on port 54005
+[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1539760216717	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.baidu.com/
+1539760216905	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.baidu.com/
+1539760216922	Marionette	INFO	Stopped listening on port 54042
+[Child 1436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch[Parent 20328, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20088, Chrome_C[Parent 20328, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19540, Chrom[GPU 18364, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539761637711	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cva_b\\AppData\\Local\\Temp\\rust_mozprofile.tRGNLBp9hpHX"
+1539761639286	Marionette	INFO	Listening on port 54466
+1539761639328	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539761639348	Marionette	DEBUG	[6442450945] Frame script loaded
+1539761639368	Marionette	DEBUG	[6442450945] Frame script registered
+1539761639379	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539761639563	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539761640238	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.douban.com/
+1539761643696	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.douban.com/
+[Parent 21196, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 21196, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[[ChChild 195i4ld 19674, Chrome_2C,hildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19544, Chrome_Child[Parent 21196, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19656, Chro1539761646537	Marionette	INFO	Stopped listening on port 54466
+[GPU 14052, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539761812612	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cva_b\\AppData\\Local\\Temp\\rust_mozprofile.LSshBf27ccQU"
+1539761814282	Marionette	INFO	Listening on port 54573
+1539761814725	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539761814744	Marionette	DEBUG	[6442450945] Frame script loaded
+1539761814746	Marionette	DEBUG	[6442450945] Frame script registered
+1539761814753	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539761814909	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539761815603	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.douban.com/
+1539761819072	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.douban.com/
+[Parent 6016, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6016, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commo[n/iChilpc_d 19ch512, anChrome_ChildThrenelad]_win.cc, line 346
+[Child 3204, Chrome_ChildTh WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1951[Parent 6016, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539762276298	Marionette	INFO	Stopped listening on port 54573
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539762281620	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cva_b\\AppData\\Local\\Temp\\rust_mozprofile.lIpIugO2UPRA"
+1539762283187	Marionette	INFO	Listening on port 54836
+1539762283245	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539762283264	Marionette	DEBUG	[6442450945] Frame script loaded
+1539762283275	Marionette	DEBUG	[6442450945] Frame script registered
+1539762283292	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539762283470	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539762284116	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.douban.com/
+1539762287608	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.douban.com/
+1539762287691	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.douban.com/
+1539762288978	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.douban.com/
+1539762288979	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.douban.com/
+1539762289100	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539762289100	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1539762289101	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1539762289101	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1539762289921	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.douban.com/
+1539762290696	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.douban.com/
+[Child 16396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16396, Ch[Child 19652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19652, Chrome[Child 6980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6980, C1539764090652	Marionette	INFO	Stopped listening on port 54836
+[GPU 15928, Chrome_
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+vent pagehide for about:blank
+1539764016439	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.jianshu.com/p/04d180d90a3f
+1539764017157	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.jianshu.com/p/04d180d90a3f
+[Parent 1196, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20312, Chrome_ChildT[Child 15620, Chrome_ChildThread] WARNING: pipe error: 109:1539764086198	Marionette	INFO	Listening on port 57432
+1539764086605	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539764086623	Marionette	DEBUG	[6442450945] Frame script loaded
+1539764086624	Marionette	DEBUG	[6442450945] Frame script registered
+1539764086634	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539764087382	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539764088720	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.jianshu.com/p/04d180d90a3f
+1539764090281	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.jianshu.com/p/04d180d90a3f
+[Parent 6428, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6428, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chi[ld 9256,C hild 357C2h, rCome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9256,[Parent 6428, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21448, Chro1539764224710	Marionette	[Parent 17808, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17808, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2960, Chro[Child 16852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16852, Ch[Parent 17808, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18456, Chro1539764288715	Marionette	INFO	Stopped listening on port 57703
+[GPU 17084, Chrome_
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539766061143	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cva_b\\AppData\\Local\\Temp\\rust_mozprofile.yWrjJLoB7j9R"
+1539766062771	Marionette	INFO	Listening on port 61096
+1539766063255	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539766063273	Marionette	DEBUG	[6442450945] Frame script loaded
+1539766063274	Marionette	DEBUG	[6442450945] Frame script registered
+1539766063384	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539766063604	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539766064187	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.taobao.com/
+1539766064899	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.taobao.com/
+1539766064967	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.taobao.com/
+1539766065326	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.taobao.com/
+1539766065330	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.taobao.com/
+[Parent 7516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539766065428	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539766065622	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539766066739	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539766066745	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539766066772	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539766066772	Marionette	DEBUG	[6442450945] Received DOM event unload for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+[Parent 7516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539766066847	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539766067902	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539766067940	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539766067968	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539766067969	Marionette	DEBUG	[6442450945] Received DOM event unload for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539766068002	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1539766068042	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539766070332	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+[Parent 7516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[[Parent 7516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13444, Chr1539766177113	Marionette	INFO	Stopped listening on port 61096
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539767270192	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cva_b\\AppData\\Local\\Temp\\rust_mozprofile.6sDOOETeV5uM"
+1539767271771	Marionette	INFO	Listening on port 63442
+1539767271815	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539767271834	Marionette	DEBUG	[6442450945] Frame script loaded
+1539767271854	Marionette	DEBUG	[6442450945] Frame script registered
+1539767271947	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539767272258	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539767272969	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.taobao.com/
+1539767274045	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.taobao.com/
+1539767274113	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.taobao.com/
+1539767274372	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.taobao.com/
+1539767274375	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.taobao.com/
+[Parent 15324, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539767274477	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539767274715	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539767276115	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539767276122	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539767276145	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539767276145	Marionette	DEBUG	[6442450945] Received DOM event unload for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539767276211	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539767277277	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539767277306	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539767277336	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539767277336	Marionette	DEBUG	[6442450945] Received DOM event unload for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+[Parent 15324, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539767277394	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+1539767279725	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://login.taobao.com/member/login.jhtml?redirectURL=http://s.taobao.com/search?q=%E4%BC%9A%E8%AE%AE%E7%A4%BC%E5%93%81&img ... =all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170306
+[Parent 15324, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15324, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14592, Chrome_Ch[Child 8500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8500, Ch[Parent 15324, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2940, 1539767301564	Marionette	INFO	Stopped listening on port 63442
+[GPU 15192, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
