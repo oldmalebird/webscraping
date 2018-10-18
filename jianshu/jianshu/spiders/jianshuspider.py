@@ -22,9 +22,9 @@ class jianshu(CrawlSpider):
         print(infos)
         for info in infos:
             name = info.xpath('//a[1]/h4/text()').extract()[0]
-            content = info.xpath('//a[1]/p/text()').extract()  #有时候内容为空，有索引会报错
-            article = info.xpath('//div/a/text()').extract()[0]
-            fans = info.xpath('//div/text()').extract()[0]
+            content = info.xpath('a[1]/p/text()').extract()  #有时候内容为空，有索引会报错
+            article = info.xpath('div/a/text()').extract()[0]
+            fans = info.xpath('div/text()').extract()[0]
 
             if content:
                 content = content[0]
