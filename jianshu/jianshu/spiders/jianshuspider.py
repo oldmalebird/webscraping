@@ -3,7 +3,6 @@ from scrapy.selector import Selector
 from scrapy.http import Request
 from jianshu.items import JianshuItem
 from scrapy.exceptions import CloseSpider
-import json
 
 
 class jianshu(CrawlSpider):
@@ -16,12 +15,12 @@ class jianshu(CrawlSpider):
         item = JianshuItem()
         selector = Selector(response)
         infos = selector.xpath('//div[@class="collection-wrap"]')
-        # print(type(infos))
+        print(infos)
         # fp_test = open('D:/Github/webscraping/test_jianshu.txt', 'a+')
         # fp_test.write(infos)
-        print(infos)
+        # print(infos)
         for info in infos:
-            name = info.xpath('//a[1]/h4/text()').extract()[0]
+            name = info.xpath('a[1]/h4/text()').extract()[0]
             content = info.xpath('a[1]/p/text()').extract()  #有时候内容为空，有索引会报错
             article = info.xpath('div/a/text()').extract()[0]
             fans = info.xpath('div/text()').extract()[0]
@@ -39,7 +38,7 @@ class jianshu(CrawlSpider):
 
         urls = [
             'https://www.jianshu.com/recommendations/collections?page={}&order_by=hot'.
-            format(str(i)) for i in range(2, 3)
+            format(str(i)) for i in range(2, 21)
         ]
         for url in urls:
             yield Request(url, callback=self.parse)
