@@ -3,8 +3,10 @@ from bs4 import BeautifulSoup
 import os
 import urllib
 
+
 BASE_PAGE_URL = 'http://www.doutula.com/photo/list/?page='
-PAGE_URL_LIST = []
+PAGE_URL_LIST = [] #页面url
+
 for i in range(1, 3):
     url = BASE_PAGE_URL + str(i)
     PAGE_URL_LIST.append(url)
@@ -32,9 +34,15 @@ def get_page(page_url):
         print(img['data-original'])
         download_img(img['data-original'])
 
+def producer():
+
+def customrer():
+
 
 def main():
     #get_page(PAGE_URL_LIST[0])
+
+
     for page_url in PAGE_URL_LIST:
         print(page_url)
         get_page(page_url)
