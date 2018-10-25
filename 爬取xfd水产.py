@@ -33,7 +33,7 @@ headers = {
 
 
 def get_price(url):
-    '''获取xfd蔬菜价格数据'''
+    '''获取xfd水产价格数据'''
     global DUPLICATE_FLAG
     result = requests.get(url, headers=headers)
     soup = BeautifulSoup(result.content,
@@ -49,7 +49,7 @@ def get_price(url):
         specification = list(tds[4].stripped_strings)[0]
         unit = list(tds[5].stripped_strings)[0]
         date = list(tds[6].stripped_strings)[0]
-        print(date, name)
+        #print(date, name)
         if xfd_aqua_price.find({
                 'date': date,
                 'name': name,
@@ -62,6 +62,7 @@ def get_price(url):
                     'specification': specification
                 }).count())
             DUPLICATE_FLAG = True
+            print(date, name, specification)
             print('已爬取到已保存过的数据')
             break
         if (',' not in low_price) and (',' not in avg_price) and (
@@ -83,7 +84,7 @@ if __name__ == '__main__':
     DUPLICATE_FLAG = False
     urls = [
         'http://www.xinfadi.com.cn/marketanalysis/4/list/{}.shtml'.format(
-            str(i)) for i in range(1, 2850)
+            str(i)) for i in range(1, 2856)
     ]
     i = 1
     for url in urls:

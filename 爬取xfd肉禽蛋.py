@@ -49,7 +49,6 @@ def get_price(url):
         specification = list(tds[4].stripped_strings)[0]
         unit = list(tds[5].stripped_strings)[0]
         date = list(tds[6].stripped_strings)[0]
-        print(date, name)
         if xfd_meat_price.find({
                 'date': date,
                 'name': name,
@@ -62,7 +61,7 @@ def get_price(url):
                     'specification': specification
                 }).count())
             DUPLICATE_FLAG = True
-            print('已爬取到已保存过的数据')
+            print('已爬取到已保存过的数据:', date, name)
             break
         if (',' not in low_price) and (',' not in avg_price) and (
                 ',' not in high_price):
@@ -82,8 +81,8 @@ if __name__ == '__main__':
     # 列表生成器生成需要遍历的url
     DUPLICATE_FLAG = False
     urls = [
-        'http://www.xinfadi.com.cn/marketanalysis/1/list/{}.shtml'.format(
-            str(i)) for i in range(1, 3957)
+        'http://www.xinfadi.com.cn/marketanalysis/3/list/{}.shtml'.format(
+            str(i)) for i in range(1, 3965)
     ]
     i = 1
     for url in urls:

@@ -94,13 +94,13 @@ if __name__ == '__main__':
     DUPLICATE_FLAG = False
     urls = [
         'http://www.xinfadi.com.cn/marketanalysis/2/list/{}.shtml'.format(
-            str(i)) for i in range(2395, 2850)
+            str(i)) for i in range(1, 2850)
     ]
-    i = 2395
+    i = 1
     for url in urls:
         if DUPLICATE_FLAG == True:
             break
         get_price(url)
         print('已爬取第%d页' % i)
         i += 1
-        time.sleep(2)
+        time.sleep(1)

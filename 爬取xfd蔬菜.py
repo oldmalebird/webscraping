@@ -49,7 +49,7 @@ def get_price(url):
         specification = list(tds[4].stripped_strings)[0]
         unit = list(tds[5].stripped_strings)[0]
         date = list(tds[6].stripped_strings)[0]
-        print(date, veg_name)
+        #print(date, veg_name)
         if xfd_veg_price.find({
                 'date': date,
                 'veg_name': veg_name,
