@@ -92,4 +92,4 @@ if __name__ == '__main__':
         get_price(url)
         print('已爬取第%d页' % i)
         i += 1
-        time.sleep(1)
+        time.sleep(3)
