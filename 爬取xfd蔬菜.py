@@ -54,6 +54,7 @@ def get_price(url):
                 'date': date,
                 'veg_name': veg_name,
                 'specification': specification
+                #'low_price': low_price #感觉这个不行，会重复添加信息，只能用来过滤前三者信息重复的数据
         }).count() > 0:
             print(
                 xfd_veg_price.find({
@@ -61,6 +62,7 @@ def get_price(url):
                     'veg_name': veg_name,
                     'specification': specification
                 }).count())
+            print(date, veg_name, specification)
             DUPLICATE_FLAG = True
             print('已爬取到已保存过的数据')
             break
@@ -83,7 +85,7 @@ if __name__ == '__main__':
     DUPLICATE_FLAG = False
     urls = [
         'http://www.xinfadi.com.cn/marketanalysis/1/list/{}.shtml'.format(
-            str(i)) for i in range(1, 2000)
+            str(i)) for i in range(67, 2000)
     ]
     i = 1
     for url in urls:
